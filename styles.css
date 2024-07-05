@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#7B9F35,#226666);
+}
+#gameArea {
+    position: relative;
+    height: 500px; 
+    width: 200px;  
+    border: 2px solid #000;
+    overflow: hidden;
+    background-image: url("https://th.bing.com/th/id/OIP.8pECnTDdDrEP68GOx8eIHgHaDt?rs=1&pid=ImgDetMain");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+}
+#car {
+    background-image: url('racingcar.png');
+    background-size: cover; 
+    bottom: 0;
+    left: 50%;
+    width: 50px;
+    height: 100px;
+}
+#controls {
+    margin-top: 20px;
+}
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #ADD8E6;
+    color: black;
+    border: none;
+}
+#infoPanel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: yellow;
+}
+#levelDisplay, #timeDisplay, #coinsDisplay {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+#gameOver {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+#car{
+    width: 50px;
+    height: 80px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+
